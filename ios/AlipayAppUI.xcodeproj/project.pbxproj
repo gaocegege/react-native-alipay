@@ -690,6 +690,7 @@
 				);
 				INFOPLIST_FILE = AlipayAppUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AlipayAppUI;
 			};
@@ -706,6 +707,7 @@
 				);
 				INFOPLIST_FILE = AlipayAppUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = AlipayAppUI;
 			};

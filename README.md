@@ -1,5 +1,10 @@
 # react-native-alipay
 
+PS: 你会发现需要一些 Hack 才能运行起来，具体是要 Hack lib 里的一个文件，以及解决6，7个编译错误，参考：
+
+* https://github.com/facebook/react-native/issues/8584#issuecomment-236366222
+* https://github.com/facebook/react-native/issues/8472#issuecomment-232217704
+
 > 基于 [React Native](https://github.com/facebook/react-native) 实现的支付宝钱包 UI 界面。
 
 > 支付宝钱包版本号：v9.5.1
