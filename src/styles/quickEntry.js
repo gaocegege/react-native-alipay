@@ -3,7 +3,7 @@
 const QuickEntryStyles = {
   quickEntry: {
     flexDirection: 'row',
-    backgroundColor: '#3F454F',
+    backgroundColor: '#990000',
     height: 100,
     paddingTop: 0,
     marginTop: 64,

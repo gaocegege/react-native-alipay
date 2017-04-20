@@ -305,7 +305,7 @@ const Main = React.createClass({
         <Navigator initialRoute={{name: 'alipay-index', component: AlipayView}}
                    configureScene={() => { return Navigator.SceneConfigs.FloatFromRight }}
                    navigationBar={
-                    <Navigator.NavigationBar style={{backgroundColor: '#3F454F', alignItems: 'center'}} routeMapper={NavigationBarRouteMapper} />
+                    <Navigator.NavigationBar style={{backgroundColor: '#990000', alignItems: 'center'}} routeMapper={NavigationBarRouteMapper} />
                    }
                    renderScene={this.renderScene}></Navigator>
     );

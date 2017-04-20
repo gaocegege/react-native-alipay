@@ -4,7 +4,7 @@ const TopBarStyles = {
   topBar: {
     height: 65,
     flexDirection: 'row',
-    backgroundColor: '#3F454F',
+    backgroundColor: '#990000',
     paddingTop: 33,
     paddingLeft: 15,
     paddingRight: 15,

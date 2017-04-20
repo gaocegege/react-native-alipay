@@ -38,14 +38,14 @@ const Interface = React.createClass({
                    barTintColor={"#fff"}>
           <TabBarIOS.Item key="alipay"
                           icon={{uri: alipayLogoIcon, scale: 2}}
-                          title="支付宝"
+                          title="首页"
                           selected={this.state.selectedTab === 'AlipayView'}
                           onPress={() => { this.onPress('AlipayView'); }}>
             <AlipayView />
           </TabBarIOS.Item>
-          <TabBarIOS.Item key="kb"
+          <TabBarIOS.Item key="ck"
                           icon={{uri: koubeiBase64Icon, scale: 2.5}}
-                          title="口碑"
+                          title="参考"
                           selected={this.state.selectedTab === 'KoubeiView'}
                           onPress={() => { this.onPress('KoubeiView'); }}>
             <KoubeiView />
@@ -54,12 +54,19 @@ const Interface = React.createClass({
                                     iconName="people"
                                     selectedIconName="people"
                                     iconSize={30}
-                                    title="朋友"
+                                    title="理财"
                                     badge="3"
                                     selected={this.state.selectedTab === 'FriendView'}
                                     onPress={() => { this.onPress('FriendView'); }}>
             <FriendView />
           </MaterialIcons.TabBarItem>
+          <TabBarIOS.Item key="sh"
+                          icon={{uri: koubeiBase64Icon, scale: 2.5}}
+                          title="生活"
+                          selected={this.state.selectedTab === 'KoubeiView'}
+                          onPress={() => { this.onPress('KoubeiView'); }}>
+            <KoubeiView />
+          </TabBarIOS.Item>
           <TabBarIOS.Item key="mine"
                           icon={{uri: mineBase64Icon, scale: 2.5}}
                           title="我的"

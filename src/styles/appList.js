@@ -7,12 +7,12 @@ const AppListStyles = {
   appRow: {
     height: 75,
     flexDirection: 'row',
-    backgroundColor: '#3F454F',
+    backgroundColor: '#990000',
   },
   appRowTopBorder: {
     height: 75,
     flexDirection: 'row',
-    backgroundColor: '#3F454F',
+    backgroundColor: '#990000',
     borderTopWidth: 1,
     borderColor: '#E6E6E6',
   },
