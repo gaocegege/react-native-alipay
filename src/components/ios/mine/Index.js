@@ -85,7 +85,7 @@ class MineView extends Component {
                         <Text>总资产   </Text><Text style={{fontSize: 16, fontWeight: 'bold'}}>￥541.23</Text>
                     </View>
                     <View key="list-it" style={{flex: 1, flexDirection: 'row'}}>
-                        <Text>余额      </Text><Text style={{fontSize: 16, fontWeight: 'bold'}}>￥121.58</Text>
+                        <Text>余额      </Text><Text style={{fontSize: 16, fontWeight: 'bold'}}>￥121.58</Text><Text style={{color: '#bc4332', fontSize: 16, fontWeight: 'bold'}}>3.54%</Text>
                     </View>
                 </View>
             </View>

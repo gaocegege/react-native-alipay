@@ -73,58 +73,6 @@ const appListData = [
     ],
     [
       {
-        title: '口碑外卖',
-        image: {
-          source: require('../../../images/iconfont-koubeilogo.png'),
-        }
-      },
-      {
-        title: '芝麻信用',
-        image: {
-          source: require('../../../images/iconfont-zhimaxinyong.png'),
-        }
-      },
-      {
-        title: '淘宝',
-        image: {
-          source: require('../../../images/iconfont-taobao.png'),
-        }
-      },
-      {
-        title: '滴滴出行',
-        image: {
-          source: require('../../../images/iconfont-chuxing.png'),
-        }
-      }
-    ],
-    [
-      {
-        title: '淘宝电影',
-        image: {
-          source: require('../../../images/iconfont-taobaodianying.png'),
-        }
-      },
-      {
-        title: '蚂蚁聚宝',
-        image: {
-          source: require('../../../images/iconfont-mayijubao-copy.png'),
-        }
-      },
-      {
-        title: '蚂蚁花呗',
-        image: {
-          source: require('../../../images/iconfont-huabei.png'),
-        }
-      },
-      {
-        title: '服务窗',
-        image: {
-          source: require('../../../images/iconfont-fuwuchuang.png'),
-        }
-      }
-    ],
-    [
-      {
         title: '亲密付',
         icon: {
           name: 'heart',
@@ -139,41 +87,15 @@ const appListData = [
         }
       },
       {
-        title: '世界那么大',
-        image: {
-          source: require('../../../images/iconfont-chanpinfenleishijie.png'),
-        }
-      },
-      {
-        title: '天猫',
-        image: {
-          source: require('../../../images/iconfont-tianmao.png'),
-        }
-      }
-    ],
-    [
-      {
-        title: '余额宝',
-        image: {
-          source: require('../../../images/iconfont-yuebao.png'),
-        }
-      },
-      {
-        title: '我的快递',
-        image: {
-          source: require('../../../images/iconfont-kuaidi.png'),
-        }
-      },
-      {
         title: '机票火车票',
         image: {
           source: require('../../../images/iconfont-jipiao.png'),
         }
       },
       {
-        title: '爱心捐赠',
+        title: '服务窗',
         image: {
-          source: require('../../../images/iconfont-juanzeng.png'),
+          source: require('../../../images/iconfont-fuwuchuang.png'),
         }
       }
     ],

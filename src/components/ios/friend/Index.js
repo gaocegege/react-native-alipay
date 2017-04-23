@@ -57,14 +57,6 @@ const friendListData = [
     }
   },
   {
-    title: '阿里旅行去啊',
-    type: 'fuwu',
-    content: '恭喜你获得全年机票免费名额',
-    image: {
-      source: require('../../../images/iconfont-jipiao.png'),
-    }
-  },
-  {
     title: '体验技术部',
     type: 'qun',
     content: '玉伯：做地球上专业、有爱的团队',
